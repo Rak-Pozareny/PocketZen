@@ -1,7 +1,7 @@
 # PocketZen
 A love letter to the classic PDA, but reimagined.
 
-Desktop and phone in one. A clean, all-transparent DORFic design that sits comfortably in your hand. Fully open source, top to bottom. What more could you ask for?
+Desktop and phone in one. A clean, Y2K-inspired design that sits comfortably in your hand. Fully open source, top to bottom. What more could you ask for?
 Meet PocketZen.
 
 <p align="center">
@@ -159,18 +159,46 @@ a drawing or a measurement) is marked **UNVERIFIED** until it is.
 
 ## The enclosure
 
+None of these designs changed the boards; each shell was fitted around them as they are. Whatever the design, the
+shell will be 3D printed, with test prints at home first and the final shell from a printing service (E6).
+
 <p align="center">
-  <img src="docs/enclosure/img/apple_v2_view_front_three_quarter.png" width="400" alt="Block model v2 of the half-apple shell from the front: display area above the keyboard area, front camera mark between them, stem and leaf on top">
-  <img src="docs/enclosure/img/apple_v2_view_back_three_quarter.png" width="400" alt="Block model v2 from the back: the rear camera in a raised square bump high on the centre line, USB-A openings in the top edge">
+  <img src="docs/enclosure/img/view_open_front.png" width="200" alt="Swivel block model, open: the square screen half turned up above the keyboard half">
+  <img src="docs/enclosure/img/half_apple_sketch.png" width="290" alt="Rak's to-scale sketch of the half-apple shell: display above keyboard, green skin, stem and leaf, with a side view about 20 mm thick">
+  <img src="docs/enclosure/img/apple_v1_view_front_three_quarter.png" width="200" alt="Half-apple block model v1 from the front">
+  <img src="docs/enclosure/img/apple_v2_view_back_three_quarter.png" width="200" alt="Half-apple block model v2 from the back: the rear camera in a raised square bump high on the centre line">
 </p>
+<p align="center"><sub>Left to right: the swivel block model (open), Rak's half-apple sketch, half-apple block model v1 (front) and v2 (back).</sub></p>
 
-The shell is a half apple, about 120 x 180 x 20 mm. The flat cut face is the front, with the display above the
-keyboard. The skin forms the rim and the rounded back, with a stem and leaf on top. It will be 3D printed: test
-prints at home first, then the final shell from a printing service.
+The designs, in order:
 
-Block model v1 was printed and tried in the hand. Version 2 moves the rear camera higher, out of the grip, and puts
-the front camera between the screen and the keys. Decisions, fit checks and the model files are in
-[`docs/enclosure/`](docs/enclosure/ENCLOSURE.md).
+1. **Plain slab (checkpoints 1-3, October 2026).** The boards were placed for this layout: the display above the
+   keyboard in one shell of about 95 x 150 x 15 mm. It was a working assumption and was never designed as a shell.
+2. **Swivel (9 November, E1-E5).** This was Rak's choice, modelled on the Motorola FLIPOUT. It had two halves of
+   about 98 x 90 mm, and the screen half turned 90 degrees about a pivot near one corner to uncover the keyboard.
+   Because the panel is square, the picture loses nothing when it rotates.
+   - The rear camera sat on the back of the screen half, so it worked only with the device open. When closed, it
+     rested in a curved channel in the keyboard half.
+   - There was a block model and a printable mock-up of each half: 98.5 x 152 mm open, 98.5 x 98.5 mm closed, and
+     37.1 mm thick.
+3. **Half-apple (19 November, E7, E8).** This is Rak's design, drawn to scale: a slab shaped like an apple cut in
+   half, about 120 x 180 x 20 mm.
+   - **Shape:** the cut face is the front, with the display above the keyboard. The skin forms the rim and the
+     rounded back, with a stem and leaf on top.
+   - **Why it replaced the swivel:** there is no pivot, it is about half as thick, the battery and keyboard cables
+     are short, and the skin leaves room for antennas and speakers.
+   - **Ports:** USB-A behind rubber lids; USB-C through a short extension cable to a socket in the skin; SIM and
+     microSD under the back plate.
+4. **Half-apple block model v1 (20 November).** Every edge is rounded, and there is a printable mock-up. The rear
+   camera sits in a 7 mm bump in the middle of the back, and the front camera is above the screen. Rak printed it,
+   and v2 came out of that print.
+5. **Half-apple block model v2 (21 November, E11, E12), the current design.**
+   - The rear camera moved high on the back, out of the grip, in a 5.4 mm bump.
+   - The front camera moved between the screen and the keys.
+   - The battery moved against the back wall.
+   - The keyboard cable is now modelled.
+
+Decisions, fit checks and the model files for every design are in [`docs/enclosure/`](docs/enclosure/ENCLOSURE.md).
 
 ## Repository
 
