@@ -169,15 +169,17 @@ None of these designs changed the boards; each shell was fitted around them as t
 shell will be 3D printed, with test prints at home first and the final shell from a printing service (E6).
 
 <p align="center">
+  <img src="docs/enclosure/img/iphone_se_v1.png" width="200" alt="iPhone SE 1st gen inspired enclosure design">
   <img src="docs/enclosure/img/view_open_front.png" width="200" alt="Swivel block model, open: the square screen half turned up above the keyboard half">
   <img src="docs/enclosure/img/half_apple_sketch.png" width="290" alt="Rak's to-scale sketch of the half-apple shell: display above keyboard, green skin, stem and leaf, with a side view about 20 mm thick">
   <img src="docs/enclosure/img/apple_v1_view_front_three_quarter.png" width="200" alt="Half-apple block model v1 from the front">
   <img src="docs/enclosure/img/apple_v2_view_back_three_quarter.png" width="200" alt="Half-apple block model v2 from the back: the rear camera in a raised square bump high on the centre line">
 </p>
-<p align="center"><sub>Left to right: the swivel block model (open), Rak's half-apple sketch, half-apple block model v1 (front) and v2 (back).</sub></p>
+<p align="center"><sub>Left to right: iPhone SE 1st gen inspired design, swivel block model (open), Rak's half-apple sketch, half-apple block model v1 (front) and v2 (back).</sub></p>
 
 The designs, in order:
 
+0. **iPhone SE 1st gen inspired design.** Enclosure inspired by the iPhone SE 1st generation, matching the classic PDA form factor.
 1. **Plain slab (checkpoints 1-3, October 2026).** The boards were placed for this layout: the display above the
    keyboard in one shell of about 95 x 150 x 15 mm. It was a working assumption and was never designed as a shell.
 2. **Swivel (9 November, E1-E5).** This was Rak's choice, modelled on the Motorola FLIPOUT. It had two halves of
