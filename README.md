@@ -169,13 +169,12 @@ None of these designs changed the boards; each shell was fitted around them as t
 shell will be 3D printed, with test prints at home first and the final shell from a printing service (E6).
 
 <p align="center">
-  <img src="docs/enclosure/img/iphone_se_v1.png" width="200" alt="iPhone SE 1st gen inspired enclosure design">
-  <img src="docs/enclosure/img/view_open_front.png" width="200" alt="Swivel block model, open: the square screen half turned up above the keyboard half">
-  <img src="docs/enclosure/img/half_apple_sketch.png" width="290" alt="Rak's to-scale sketch of the half-apple shell: display above keyboard, green skin, stem and leaf, with a side view about 20 mm thick">
-  <img src="docs/enclosure/img/apple_v1_view_front_three_quarter.png" width="200" alt="Half-apple block model v1 from the front">
-  <img src="docs/enclosure/img/apple_v2_view_back_three_quarter.png" width="200" alt="Half-apple block model v2 from the back: the rear camera in a raised square bump high on the centre line">
+  <img src="docs/enclosure/img/iphone_se_v1_view_front.jpg" width="200" alt="iPhone SE 1st gen inspired enclosure design, front view">
+  <img src="docs/enclosure/img/iphone_se_v1_view_front_three_quarter.jpg" width="200" alt="iPhone SE 1st gen design, front three-quarter view">
+  <img src="docs/enclosure/img/iphone_se_v1_view_back.jpg" width="200" alt="iPhone SE 1st gen design, back view">
+  <img src="docs/enclosure/img/iphone_se_v1_view_side.jpg" width="200" alt="iPhone SE 1st gen design, side view">
 </p>
-<p align="center"><sub>Left to right: iPhone SE 1st gen inspired design, swivel block model (open), Rak's half-apple sketch, half-apple block model v1 (front) and v2 (back).</sub></p>
+<p align="center"><sub>Left to right: iPhone SE 1st gen inspired design - front view, front three-quarter view, back view, and side view.</sub></p>
 
 The designs, in order:
 
