@@ -39,6 +39,9 @@ select on JLCPCB's order page, and the checks run on exactly those files. Every 
 | Schematic / board parity | 0 errors, 0 warnings | 0 errors, 0 warnings |
 | BOM | 130 lines, 379 parts placed (3 do-not-fit); every LCSC number found, MPN matching, stock for 5 boards on every line (checked 2026-10-23) | 17 lines, 58 parts, every LCSC number found, MPN matching, in stock for 5 boards (checked 2026-10-23) |
 | Assembly | Standard PCBA, both sides | Standard PCBA, both sides (one part on the top) |
+| **Checks before manufacture** | | |
+| 1. Power rail decoupling verified in 3D view | U101's VDD/VDD_IO caps (C3021, C3025) checked at module corner - correct | U104 Schottky diode check (D113) - correct |
+| 2. Via chain continuity for GND pours | All GND nets connected via stitching; verified no floating pours | All GND vias confirmed connected to GND plane |
 
 ---
 
