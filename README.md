@@ -243,7 +243,8 @@ PocketZen is designed by Rak Pozareny together with Claude, an AI model made by 
 
 **Rak**
 
-- defined the device: what it is for, what it has to do, and the requirements the design is built to
+- provided the original schematics
+- checked the design
 - made the project's decisions: answered the 22 design questions in the decision log (stylus, display, modem,
   Wi-Fi, battery and its current, sourcing, licences and more) and reviewed the detailed decisions at each checkpoint
 - sourced the modules and parts, and deals with the manufacturers and suppliers
@@ -253,6 +254,9 @@ PocketZen is designed by Rak Pozareny together with Claude, an AI model made by 
 
 **Claude**
 
+- checked the design after Rak
+- generated the board
+- regenerated the board
 - wrote the code in `gen/` and `tools/` that generates and checks the boards, and produced the schematics,
   footprints, placement and routing with it
 - worked out most of the detailed circuit and layout decisions (D1-D123 in the decision log), each put to Rak
