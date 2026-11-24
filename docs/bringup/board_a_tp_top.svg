@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1161" height="792" viewBox="0 0 129.00 88.00" font-family="DejaVu Sans, sans-serif">
+<rect width="129.00" height="88.00" fill="#ffffff"/>
+<text x="6.00" y="4.0" font-size="2.6" font-weight="bold">Board A: test points, top side</text>
+<text x="6.00" y="7.4" font-size="1.7" fill="#555">seen from the component side the module plugs into</text>
+<rect x="6.00" y="12.00" width="95.00" height="65.00" fill="#f4f1e8" stroke="#555" stroke-width="0.25" rx="1"/>
+<rect x="29.07" y="17.25" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="31.00" y="19.45" font-size="1.4" fill="#8a867a" text-anchor="middle">Q501</text>
+<rect x="70.00" y="45.55" width="3.40" height="2.90" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="71.70" y="47.50" font-size="1.4" fill="#8a867a" text-anchor="middle">U202</text>
+<rect x="23.45" y="13.53" width="3.40" height="4.10" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="25.15" y="16.08" font-size="1.4" fill="#8a867a" text-anchor="middle">U106</text>
+<rect x="78.00" y="57.25" width="6.00" height="3.50" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="81.00" y="59.50" font-size="1.4" fill="#8a867a" text-anchor="middle">SW306</text>
+<rect x="59.50" y="66.47" width="17.60" height="12.30" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="68.30" y="73.12" font-size="1.4" fill="#8a867a" text-anchor="middle">J401</text>
+<rect x="71.00" y="57.25" width="6.00" height="3.50" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="74.00" y="59.50" font-size="1.4" fill="#8a867a" text-anchor="middle">SW305</text>
+<rect x="68.75" y="62.62" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="70.80" y="64.82" font-size="1.4" fill="#8a867a" text-anchor="middle">U402</text>
+<rect x="77.70" y="66.47" width="17.60" height="12.30" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="86.50" y="73.12" font-size="1.4" fill="#8a867a" text-anchor="middle">J402</text>
+<rect x="72.04" y="29.69" width="2.30" height="4.00" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="73.19" y="32.19" font-size="1.4" fill="#8a867a" text-anchor="middle">Y301</text>
+<rect x="60.20" y="46.50" width="6.00" height="3.50" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="63.20" y="48.75" font-size="1.4" fill="#8a867a" text-anchor="middle">SW304</text>
+<rect x="59.45" y="12.15" width="23.10" height="10.35" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="71.00" y="17.83" font-size="1.4" fill="#8a867a" text-anchor="middle">J102</text>
+<rect x="85.31" y="19.65" width="15.60" height="14.20" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="93.11" y="27.25" font-size="1.4" fill="#8a867a" text-anchor="middle">J502</text>
+<rect x="96.95" y="50.68" width="4.50" height="5.65" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="99.20" y="54.00" font-size="1.4" fill="#8a867a" text-anchor="middle">SW301</text>
+<rect x="96.95" y="63.68" width="4.50" height="5.65" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="99.20" y="67.00" font-size="1.4" fill="#8a867a" text-anchor="middle">SW303</text>
+<rect x="47.30" y="12.30" width="11.40" height="7.70" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="53.00" y="16.65" font-size="1.4" fill="#8a867a" text-anchor="middle">J1001</text>
+<rect x="66.40" y="28.77" width="5.40" height="7.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="69.10" y="32.97" font-size="1.4" fill="#8a867a" text-anchor="middle">U301</text>
+<rect x="18.27" y="21.04" width="40.50" height="55.50" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="38.52" y="49.29" font-size="1.4" fill="#8a867a" text-anchor="middle">J301</text>
+<rect x="86.92" y="57.00" width="3.16" height="4.00" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="88.50" y="59.50" font-size="1.4" fill="#8a867a" text-anchor="middle">U803</text>
+<rect x="33.30" y="12.30" width="11.40" height="7.70" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="39.00" y="16.65" font-size="1.4" fill="#8a867a" text-anchor="middle">J703</text>
+<rect x="60.30" y="51.15" width="5.70" height="9.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="63.15" y="56.35" font-size="1.4" fill="#8a867a" text-anchor="middle">J702</text>
+<rect x="60.10" y="24.70" width="5.89" height="20.60" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="63.05" y="35.50" font-size="1.4" fill="#8a867a" text-anchor="middle">J701</text>
+<rect x="87.95" y="62.62" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="90.00" y="64.82" font-size="1.4" fill="#8a867a" text-anchor="middle">U403</text>
+<rect x="8.35" y="52.80" width="4.15" height="11.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="10.42" y="59.00" font-size="1.4" fill="#8a867a" text-anchor="middle">J704</text>
+<rect x="5.04" y="19.18" width="9.42" height="10.64" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="9.75" y="25.00" font-size="1.4" fill="#8a867a" text-anchor="middle">J101</text>
+<rect x="83.45" y="34.12" width="17.70" height="15.70" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="92.30" y="42.47" font-size="1.4" fill="#8a867a" text-anchor="middle">J901</text>
+<rect x="8.35" y="36.30" width="4.15" height="11.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="10.42" y="42.50" font-size="1.4" fill="#8a867a" text-anchor="middle">J705</text>
+<rect x="96.95" y="57.18" width="4.50" height="5.65" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="99.20" y="60.50" font-size="1.4" fill="#8a867a" text-anchor="middle">SW302</text>
+<rect x="79.85" y="40.90" width="2.90" height="2.20" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="81.30" y="42.50" font-size="1.4" fill="#8a867a" text-anchor="middle">U702</text>
+<rect x="17.05" y="15.05" width="6.90" height="4.90" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="14.90" y="57.90" width="4.20" height="4.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="73.21" y="44.65" width="3.40" height="3.86" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="6.88" y="48.20" width="3.50" height="4.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="51.80" y="16.95" width="3.40" height="4.10" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="17.77" y="51.80" width="4.35" height="5.00" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="79.52" y="46.25" width="5.26" height="5.26" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="68.98" y="48.07" width="3.86" height="3.40" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="65.05" y="24.32" width="3.40" height="3.86" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="72.03" y="40.94" width="3.86" height="3.40" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="86.70" y="51.60" width="4.20" height="3.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="59.82" y="15.75" width="6.36" height="3.50" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="14.90" y="64.90" width="4.20" height="4.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="73.40" y="55.60" width="4.20" height="3.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="84.30" y="13.30" width="7.40" height="5.40" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="5.77" y="57.10" width="6.56" height="5.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="59.69" y="46.07" width="7.70" height="5.50" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="25.25" y="23.55" width="30.50" height="42.08" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="62.25" y="25.20" width="2.50" height="3.60" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="10.50" y="33.44" width="14.00" height="16.00" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="5.77" y="64.10" width="6.56" height="5.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="80.05" y="31.55" width="3.90" height="4.90" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="59.05" y="26.15" width="2.90" height="2.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="82.25" y="59.46" width="3.50" height="4.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="11.47" y="51.80" width="4.35" height="5.00" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="73.40" y="59.90" width="7.20" height="7.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="74.10" y="24.50" width="3.80" height="4.00" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="73.40" y="51.60" width="4.20" height="3.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="61.30" y="35.10" width="4.80" height="5.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="86.70" y="55.60" width="4.20" height="3.80" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="29.55" y="13.05" width="3.90" height="4.90" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="35.30" y="17.90" width="2.90" height="2.20" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<circle cx="13.88" cy="38.25" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/>
+<text x="15.28" y="38.25" font-size="1.55" fill="#6d4c41" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP603</tspan> BT_PCM_SYNC</text>
+<circle cx="79.35" cy="32.50" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/>
+<text x="80.75" y="32.50" font-size="1.55" fill="#6d4c41" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP203</tspan> BB_AUX_PG</text>
+<circle cx="46.00" cy="17.60" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/>
+<line x1="46.00" y1="17.60" x2="47.10" y2="18.20" stroke="#6d4c41" stroke-width="0.12"/>
+<text x="47.40" y="18.60" font-size="1.55" fill="#6d4c41" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP502</tspan> USB_LTE_DN</text>
+<circle cx="46.00" cy="15.00" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/>
+<line x1="46.00" y1="15.00" x2="47.10" y2="13.60" stroke="#6d4c41" stroke-width="0.12"/>
+<text x="47.40" y="14.00" font-size="1.55" fill="#6d4c41" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP501</tspan> USB_LTE_DP</text>
+<circle cx="67.25" cy="26.25" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="68.65" y="26.25" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP1003</tspan> LCD_VCI</text>
+<circle cx="12.50" cy="67.75" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="13.90" y="67.75" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP1012</tspan> CAMA_5V</text>
+<circle cx="77.41" cy="54.83" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/>
+<text x="78.81" y="54.83" font-size="1.55" fill="#6d4c41" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP106</tspan> CHRG_OK</text>
+<circle cx="26.10" cy="18.96" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="27.50" y="18.96" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP112</tspan> VCC3V3_AO</text>
+<circle cx="67.43" cy="50.12" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="68.83" y="50.12" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP304</tspan> VCC_3V3_S3</text>
+<circle cx="18.65" cy="14.75" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="20.05" y="14.75" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP206</tspan> VCC_LTE</text>
+<circle cx="60.75" cy="61.75" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<text x="62.15" y="61.75" font-size="1.55" fill="#c62828" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP305</tspan> VCC_1V8_S3</text>
+<circle cx="85.53" cy="17.91" r="0.75" fill="#1565c0" stroke="#fff" stroke-width="0.2"/>
+<line x1="85.53" y1="17.91" x2="86.63" y2="19.01" stroke="#1565c0" stroke-width="0.12"/>
+<text x="86.93" y="19.41" font-size="1.55" fill="#1565c0" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP101</tspan> I2C_PD_SDA</text>
+<circle cx="16.83" cy="18.16" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/>
+<line x1="16.83" y1="18.16" x2="15.73" y2="20.16" stroke="#c62828" stroke-width="0.12"/>
+<text x="15.43" y="20.56" font-size="1.55" fill="#c62828" text-anchor="end" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP109</tspan> CHG_IN</text>
+<circle cx="85.53" cy="15.36" r="0.75" fill="#1565c0" stroke="#fff" stroke-width="0.2"/>
+<line x1="85.53" y1="15.36" x2="86.63" y2="13.66" stroke="#1565c0" stroke-width="0.12"/>
+<text x="86.93" y="14.06" font-size="1.55" fill="#1565c0" text-anchor="start" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP103</tspan> PD_EE_WP</text>
+<circle cx="6.00" cy="82.30" r="0.75" fill="#c62828"/><text x="7.40" y="82.80" font-size="1.6">supply rail</text>
+<circle cx="26.00" cy="82.30" r="0.75" fill="#212121"/><text x="27.40" y="82.80" font-size="1.6">ground</text>
+<circle cx="42.00" cy="82.30" r="0.75" fill="#1565c0"/><text x="43.40" y="82.80" font-size="1.6">EEPROM programming</text>
+<circle cx="72.00" cy="82.30" r="0.75" fill="#2e7d32"/><text x="73.40" y="82.80" font-size="1.6">debug console</text>
+<circle cx="96.00" cy="82.30" r="0.75" fill="#6d4c41"/><text x="97.40" y="82.80" font-size="1.6">signal</text>
+<text x="6.00" y="85.80" font-size="1.3" fill="#8a867a">grey boxes: parts on this side; dashed: other side. tools/tp_map.py</text>
+</svg>

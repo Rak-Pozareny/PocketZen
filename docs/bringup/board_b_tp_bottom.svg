@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="972" height="757" viewBox="0 0 108.00 84.10" font-family="DejaVu Sans, sans-serif">
+<rect width="108.00" height="84.10" fill="#ffffff"/>
+<text x="6.00" y="4.0" font-size="2.6" font-weight="bold">Board B: test points, bottom side</text>
+<text x="6.00" y="7.4" font-size="1.7" fill="#555">seen with the board turned over: left and right are swapped against the top view</text>
+<rect x="6.00" y="12.00" width="74.00" height="53.10" fill="#f4f1e8" stroke="#555" stroke-width="0.25" rx="1"/>
+<rect x="66.25" y="28.71" width="3.50" height="10.98" fill="none" stroke="#d6d2c6" stroke-width="0.15" stroke-dasharray="0.6 0.4"/>
+<rect x="56.20" y="27.75" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.25" y="29.95" font-size="1.4" fill="#8a867a" text-anchor="middle">U202</text>
+<rect x="42.70" y="19.70" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="44.75" y="21.90" font-size="1.4" fill="#8a867a" text-anchor="middle">U104</text>
+<rect x="37.70" y="44.25" width="4.20" height="3.50" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="39.80" y="46.50" font-size="1.4" fill="#8a867a" text-anchor="middle">Y101</text>
+<rect x="49.16" y="15.06" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="51.09" y="17.26" font-size="1.4" fill="#8a867a" text-anchor="middle">Q103</text>
+<rect x="48.44" y="19.77" width="3.40" height="3.86" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="50.14" y="22.20" font-size="1.4" fill="#8a867a" text-anchor="middle">Q101</text>
+<rect x="38.47" y="34.57" width="8.26" height="8.26" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="42.60" y="39.20" font-size="1.4" fill="#8a867a" text-anchor="middle">U102</text>
+<rect x="56.43" y="34.65" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="36.85" font-size="1.4" fill="#8a867a" text-anchor="middle">Q201</text>
+<rect x="56.43" y="41.45" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="43.65" font-size="1.4" fill="#8a867a" text-anchor="middle">Q203</text>
+<rect x="37.30" y="12.31" width="11.40" height="7.09" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="43.00" y="16.36" font-size="1.4" fill="#8a867a" text-anchor="middle">J101</text>
+<rect x="29.25" y="28.70" width="9.30" height="5.80" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="33.90" y="32.10" font-size="1.4" fill="#8a867a" text-anchor="middle">U103</text>
+<rect x="53.41" y="15.06" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="55.34" y="17.26" font-size="1.4" fill="#8a867a" text-anchor="middle">Q104</text>
+<rect x="48.95" y="26.10" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="51.00" y="28.30" font-size="1.4" fill="#8a867a" text-anchor="middle">U101</text>
+<rect x="56.20" y="31.20" width="4.10" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.25" y="33.40" font-size="1.4" fill="#8a867a" text-anchor="middle">U201</text>
+<rect x="52.14" y="18.83" width="3.40" height="3.86" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="53.84" y="21.26" font-size="1.4" fill="#8a867a" text-anchor="middle">Q102</text>
+<rect x="56.43" y="44.85" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="47.05" font-size="1.4" fill="#8a867a" text-anchor="middle">Q204</text>
+<rect x="56.43" y="48.25" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="50.45" font-size="1.4" fill="#8a867a" text-anchor="middle">Q205</text>
+<rect x="56.43" y="38.05" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="40.25" font-size="1.4" fill="#8a867a" text-anchor="middle">Q202</text>
+<rect x="56.43" y="51.65" width="3.86" height="3.40" fill="#e0dccf" stroke="#9e9a8e" stroke-width="0.15" />
+<text x="58.36" y="53.85" font-size="1.4" fill="#8a867a" text-anchor="middle">Q206</text>
+<circle cx="37.00" cy="52.33" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/><text transform="translate(36.45 53.63) rotate(90)" font-size="1.55" fill="#6d4c41" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP101</tspan> SWCLK</text>
+<circle cx="51.00" cy="52.33" r="0.75" fill="#2e7d32" stroke="#fff" stroke-width="0.2"/><text transform="translate(50.45 53.63) rotate(90)" font-size="1.55" fill="#2e7d32" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP105</tspan> DBG_TX</text>
+<circle cx="45.40" cy="52.33" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/><text transform="translate(44.85 53.63) rotate(90)" font-size="1.55" fill="#6d4c41" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP104</tspan> BOOTSEL_COL7</text>
+<circle cx="48.20" cy="52.33" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/><text transform="translate(47.65 53.63) rotate(90)" font-size="1.55" fill="#6d4c41" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP103</tspan> RUN</text>
+<circle cx="42.60" cy="52.33" r="0.75" fill="#6d4c41" stroke="#fff" stroke-width="0.2"/><text transform="translate(42.05 53.63) rotate(90)" font-size="1.55" fill="#6d4c41" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP102</tspan> SWDIO</text>
+<circle cx="34.20" cy="52.33" r="0.75" fill="#c62828" stroke="#fff" stroke-width="0.2"/><text transform="translate(33.65 53.63) rotate(90)" font-size="1.55" fill="#c62828" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP107</tspan> +3V3</text>
+<circle cx="39.80" cy="52.33" r="0.75" fill="#212121" stroke="#fff" stroke-width="0.2"/><text transform="translate(39.25 53.63) rotate(90)" font-size="1.55" fill="#212121" paint-order="stroke" stroke="#ffffff" stroke-width="0.45"><tspan font-weight="bold">TP106</tspan> GND</text>
+<circle cx="6.00" cy="78.40" r="0.75" fill="#c62828"/><text x="7.40" y="78.90" font-size="1.6">supply rail</text>
+<circle cx="26.00" cy="78.40" r="0.75" fill="#212121"/><text x="27.40" y="78.90" font-size="1.6">ground</text>
+<circle cx="42.00" cy="78.40" r="0.75" fill="#1565c0"/><text x="43.40" y="78.90" font-size="1.6">EEPROM programming</text>
+<circle cx="72.00" cy="78.40" r="0.75" fill="#2e7d32"/><text x="73.40" y="78.90" font-size="1.6">debug console</text>
+<circle cx="96.00" cy="78.40" r="0.75" fill="#6d4c41"/><text x="97.40" y="78.90" font-size="1.6">signal</text>
+<text x="6.00" y="81.90" font-size="1.3" fill="#8a867a">grey boxes: parts on this side; dashed: other side. tools/tp_map.py</text>
+</svg>
