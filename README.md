@@ -4,6 +4,12 @@ A love letter to the classic PDA, but reimagined.
 Desktop and phone in one. A clean, Y2K-inspired design that sits comfortably in your hand. Fully open source, top to bottom. What more could you ask for?
 Meet PocketZen.
 
+As the design evolved, I soon understood that PocketZen was becoming something more than just a PDA. The main board
+is small (95 x 65 mm) and brings out standard interfaces: a 4-lane MIPI DSI display connector with touch, two MIPI
+CSI camera connectors, USB-C with battery charging, two USB-A ports, stereo audio, Wi-Fi and an M.2 slot for the LTE
+modem. That means anyone can build it into an enclosure of their own. PocketZen is a platform, a starting kit for
+creating your own device with cellular network support built in.
+
 <p align="center">
   <img src="docs/media/board_a_hero.png" width="820" alt="3D render of PocketZen's main board (Board A) with the Orange Pi CM5 module (RK3588S) fitted, USB-C and USB-A ports, display and camera connectors, SIM and microSD; its underside reflected below">
 </p>
