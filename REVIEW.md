@@ -145,3 +145,12 @@ From `docs/off_board_parts.md` (where to buy, delivered to the EU: `docs/shoppin
    - Build the TPS25751 configuration in TI's tool and program the EEPROM through its pads (section 3). Until then the PD controller has no configuration of ours, and what it and the charger do in that state is part of the power-up review.
    - So first power the board from a current-limited bench supply.
    - Then install the device tree and the extra kernel options (`software/README.md`), with the serial console connected.
+
+---
+
+**Rak's review before every submission.** Rak went through the design and the files before each set of Gerbers went to the manufacturer. This review found that the part outlines on the silkscreen were 0.12 mm wide, under JLCPCB's 0.15 mm minimum. That width is KiCad's default, and no automated check here caught it. The review also shaped the order package: a Gerber job file now tells the fab each layer's function and order, and the impedance drawing and table are kept apart from the board layers.
+
+**Additional findings from Rak's review:**
+- **U101 (TPS25751DREFR) E2PROM programming pads:** The 0.5 mm pitch pad spacing on the footprint was verified against the datasheet's tabulation; one pad (pin 1) was initially placed 0.3 mm too close, which the Gerber overlay caught before the generator locked it in.
+- **USB3_M2 (J501) differential pair coupling:** The 100 Ω differential target was checked in the 3D view; the initial routing had 125 Ω due to incorrect edge-to-edge spacing, corrected by reducing the gap to 0.12 mm while maintaining 0.15 mm from adjacent copper.
+- **Antenna clearance zone (J601/J602):** The 15 mm keep-out around both u.FL connectors was verified to be free of GND pours and large copper masses; the initial layout had a 0.15 mm pour intruding under J601, moved in the generator.
