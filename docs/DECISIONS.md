@@ -8,7 +8,7 @@
 | Q2 | Battery current | **Bigger charger** instead of BQ25792 + power capping | Charger becomes **TI BQ25713** (NVDC buck-boost controller, external FETs). PD controller changes from TPS25750 to **TPS25751D**: TI's TPS25751 datasheet lists the BQ25713 as an integrated-control charger, and the TPS25750 datasheet names none. The BQ25713 PROCHOT# output goes to a SoC GPIO for throttling. |
 | Q3 | Battery connector | **9-pin Molex Micro-Lock Plus 2.0 mm (505575-0971)**: 4 × BAT+, 4 × GND, NTC. Revised from 7-pin after Q2. | 12 A at 3.0 A/contact, above the 9.8 A worst case. Not stocked at JLCPCB, so Global Sourcing. |
 | Q4 | Battery PCM | **≥12 A** discharge (revised from ≥10 A after Q2) | Battery spec in the off-board parts list. |
-| Q5 | Display | **DisplayModule DMKDI0400S0CA** | You request the full outline drawing and the init code from DisplayModule. |
+| Q5 | Display | **DisplayModule DMKDI0400S0CA** | I request the full outline drawing and the init code from DisplayModule. |
 | Q6 | LTE mounting | **M.2 Key-B socket on the carrier** (bottom side, under the CM5) | as planned |
 | Q7 | LTE link | **USB 2.0 + USB 3.0** | CM5 USB30_2 SuperSpeed lanes (J1-51/53/57/59) go to M.2 pins 29/31/35/37 with 100 nF on the host TX pair; HOST1 USB 2.0 goes to pins 7/9. Same pairing as Radxa's IO-board USB 3.0 port. |
 | Q8 | Wi-Fi/BT | **AMPAK AP6275P** | as planned |
