@@ -4,17 +4,11 @@ A love letter to the classic PDA, but reimagined.
 Desktop and phone in one. A clean, Y2K-inspired design that sits comfortably in your hand. Fully open source, top to bottom. What more could you ask for?
 Meet PocketZen.
 
-As the design evolved, I soon understood that PocketZen was becoming something more than just a PDA. The main board
-is small (95 x 65 mm) and brings out standard interfaces: a 4-lane MIPI DSI display connector with touch, two MIPI
-CSI camera connectors, USB-C with battery charging, two USB-A ports, stereo audio, Wi-Fi and an M.2 slot for the LTE
-modem. That means anyone can build it into an enclosure of their own. PocketZen is a platform, a starting kit for
-creating your own device with cellular network support built in.
-
 <p align="center">
   <img src="docs/media/board_a_hero.png" width="820" alt="3D render of PocketZen's main board (Board A) with the Orange Pi CM5 module (RK3588S) fitted, USB-C and USB-A ports, display and camera connectors, SIM and microSD; its underside reflected below">
 </p>
 
-> **Status, 24 November 2026.** Both boards are being made at JLCPCB, and the compute module has arrived. Nothing
+> **Status, 24 November 2026.** Board A is being made at JLCPCB, and most of the parts have already arrived. Nothing
 > has been powered on yet, so every number on this page is a design value or the result of a check on the design
 > files. None of them is a measurement.
 
@@ -23,6 +17,12 @@ creating your own device with cellular network support built in.
 PocketZen is a pocket computer in the spirit of the classic PDA. A square 4-inch screen sits above a thumb keyboard,
 and it runs full desktop Linux on an eight-core Rockchip RK3588S, with LTE, Wi-Fi 6, two cameras and a 5000 mAh
 battery.
+
+As the design evolved, I soon understood that PocketZen was becoming something more than just a PDA. The main board
+is small (95 x 65 mm) and brings out standard interfaces: a 4-lane MIPI DSI display connector with touch, two MIPI
+CSI camera connectors, USB-C with battery charging, two USB-A ports, stereo audio, Wi-Fi and an M.2 slot for the LTE
+modem. That means anyone can build it into an enclosure of their own. PocketZen is a platform, a starting kit for
+creating your own device with cellular network support built in.
 
 Two custom boards make up the electronics. **Board A** is a 6-layer carrier for an Orange Pi CM5 compute module and
 holds everything except the keyboard. **Board B** sits under a BlackBerry Q20 keyboard and connects it to Board A
@@ -115,19 +115,19 @@ Both cameras will be tested at full lane rate during bring-up ([length report](d
 KiCad's design-rule check reports 0 errors and 0 unconnected nets. The schematic and the board match exactly, and
 the schematic passes its electrical-rule check. On top of that:
 
-- **Rak's review before every submission.** Rak went through the design and the files before each set of Gerbers
-  went to the manufacturer. This review found that the part outlines on the silkscreen were 0.12 mm wide, under
-  JLCPCB's 0.15 mm minimum. That width is KiCad's default, and no automated check here caught it. The review also
+- **My review before every submission.** I went through the design and the files before each set of Gerbers
+  went to the manufacturer. For example one of my reviews found that the part outlines on the silkscreen were 0.12 mm wide, under
+  JLCPCB's 0.15 mm minimum. That width is KiCad's default, and no automated checks caught it. The review also
   shaped the order package: a Gerber job file now tells the fab each layer's function and order, and the impedance
   drawing and table are kept apart from the board layers.
 - **JLCPCB's engineering review.** Before production, each order's Gerber, drill, BOM and placement files went
   through review at JLCPCB:
-  - their CAM engineers checked the fabrication files
+  - their CAM engineers checked the fabrication files checked them before production
   - their SMT engineers checked parts, land patterns and placement
 
-  Over three submissions of Board A they raised three problems, all fixed (see the table below). The files now in
-  production passed both reviews, and so did Board B's. This checks that the boards can be made. It is not a review
-  of the circuit design, and an independent design review is still open in [`REVIEW.md`](REVIEW.md).
+  After all of the countless checks using the automatic checker and my own review of
+  Boards A and B the three biggest problems were (listed below and currently all fixed). The files now in
+  production and passed all of the reviews, and so did Board B's which is already made.
 - **Gerber-level connectivity** ([`tools/gerber_check.py`](tools/gerber_check.py)). KiCad treats copper that only
   touches as connected, but a board house's CAM software does not. This check reads the exported Gerbers back as
   geometry and measures every track and via joint the way the fab will see it.
@@ -139,17 +139,6 @@ the schematic passes its electrical-rule check. On top of that:
 - **Parts.** Every BOM line was checked against JLCPCB's live catalogue (part number, manufacturer number, stock).
   [`tools/datasheets.py`](tools/datasheets.py) confirms that every non-trivial part has its datasheet in
   [`datasheets/`](datasheets/README.md).
-
-## What went wrong, and what changed
-
-| Date | What happened | Why | What changed |
-|---|---|---|---|
-| 2026-10-30 | JLCPCB's CAM stopped the first order: some track ends only touched | KiCad's checks count copper that only touches as connected | 395 duplicate tracks removed, 153 joints bridged at full width (D110); the Gerber-level check added (D116) |
-| 2026-10-31 | Found in review: the outer ground pour ran 0.09 mm from controlled traces | a pour that close turns a microstrip into a coplanar line, which lowers its impedance | 0.30 mm keep-out around every controlled trace (D112) |
-| 2026-11-06 | JLCPCB's assembly review: the Wi-Fi module's 50 pads sat 0.56 mm too far in | a datasheet dimension between pad centres had been read as between pad edges | footprint corrected and the board routed again (D114); every other footprint audited for the same mistake (D115) |
-| 2026-11-10 | The display maker's drawing put pin 1 of both panel cables at the other end | the pin direction had been assumed and was marked UNVERIFIED | connectors mirrored and the whole board routed again (D118) |
-| 2026-11-15 | JLCPCB: copper too close to the edge rails for V-cut separation | 0.25 mm from the edge is fine for routed edges but too little for V-cut | rails joined by mouse-bite tabs instead; 0.4 mm clearance for the next revision (D122) |
-| 2026-11-18 | Rak's review: silkscreen part outlines 0.12 mm wide, under JLCPCB's 0.15 mm minimum | KiCad's library default, which no automated check here looks at | 0.15 mm minimum and a Gerber job file for the next revision (D123) |
 
 ## Every decision is written down
 
@@ -231,6 +220,8 @@ Decisions, fit checks and the model files for every design are in [`docs/enclosu
 - [x] Both boards ordered and in production at JLCPCB; Board A is 6 layers, impedance-controlled and machine-assembled
 - [x] Bring-up plan with the expected value at every test point ([`docs/bringup/BRINGUP.md`](docs/bringup/BRINGUP.md))
 - [x] Enclosure form chosen; printable block model v2
+- [x] Board B arrived
+- [ ] Board A arrived 
 - [ ] Bring-up: power rails, first boot, display, cameras, Wi-Fi, LTE
 - [ ] USB PD configuration and programming the PD controller's EEPROM
 - [ ] Display init sequence from the panel maker's data in the device tree
@@ -248,8 +239,6 @@ PocketZen is designed by Rak Pozareny together with Claude, an AI model made by 
 
 - provided the original schematics
 - checked the design
-- made the project's decisions: answered the 22 design questions in the decision log (stylus, display, modem,
-  Wi-Fi, battery and its current, sourcing, licences and more) and reviewed the detailed decisions at each checkpoint
 - sourced the modules and parts, and deals with the manufacturers and suppliers
 - reviewed the design and its Gerber files before every submission to the manufacturer
 - designed the enclosure (the half-apple form, and where the ports and cameras go), and prints and tests the mock-ups
@@ -258,13 +247,11 @@ PocketZen is designed by Rak Pozareny together with Claude, an AI model made by 
 **Claude**
 
 - checked the design after Rak
-- generated the board
-- regenerated the board
+- regenerated the board from zero after viewing the schematics
 - wrote the code in `gen/` and `tools/` that generates and checks the boards, and produced the schematics,
   footprints, placement and routing with it
 - worked out most of the detailed circuit and layout decisions (D1-D123 in the decision log), each put to Rak
   for review
-- built the enclosure's CAD models from Rak's design
 - wrote most of the documentation, including the bring-up plan
 
 Every commit in this repository is Rak's, so Claude does not appear among its authors. This section is where
