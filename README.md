@@ -8,7 +8,7 @@ Meet PocketZen.
   <img src="docs/media/board_a_hero.png" width="820" alt="3D render of PocketZen's main board (Board A) with the Orange Pi CM5 module (RK3588S) fitted, USB-C and USB-A ports, display and camera connectors, SIM and microSD; its underside reflected below">
 </p>
 
-> **Status, 24 November 2026.** Board A is being made at JLCPCB, and most of the parts have already arrived. Nothing
+> **Status, 24 November 2026.** Board A is being made at JLCPCB, and most of the parts have already arrived, including the Board B. Nothing
 > has been powered on yet, so every number on this page is a design value or the result of a check on the design
 > files. None of them is a measurement.
 
